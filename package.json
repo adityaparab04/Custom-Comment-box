@@ -1,0 +1,26 @@
+{
+  "name": "custom-comment-box",
+  "version": "1.0.0",
+  "description": "Comment box using jquery",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityaparab04/Custom-Comment-box.git"
+  },
+  "author": "Aditya Parab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adityaparab04/Custom-Comment-box/issues"
+  },
+  "homepage": "https://github.com/adityaparab04/Custom-Comment-box#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

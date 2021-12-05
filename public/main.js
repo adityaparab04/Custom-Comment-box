@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    let input = $('#input').val();
-
+    
     //comment using jquery
     $('#comment').click(function(){
+        let input = $('#input').val();
         $('.box').append(input + '<br>');
         $('#input').val('');
         $('.box-container').slideDown();
