@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comment Box</title>
-    <script src="jquery.js"></script>
+    <style media="screen"></style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <input type="text" id="input" placeholder="Write your text here...">
+        <button type="button" name="button" id="cancel">Cancel</button>
+        <button type="button" name="button" id="comment">Comment</button>
+        <div class="box-container">
+            <div class="box"></div>
+            <button type="button" name="button" id="delete">delete</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 </html>
